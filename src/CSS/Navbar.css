@@ -1,0 +1,38 @@
+
+.navbar-container {
+    direction: rtl;
+    width: 100%;
+    background-color: rgba(21, 21, 21, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar-container.scrolled {
+    background-color: #252525;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1.4em 0;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #dfdfdf;
+    font-size: 1.3em;
+    transition: color 0.3s;
+}
+
+.navbar-item a:hover {
+    color: #007BFF;
+}
