@@ -13,7 +13,7 @@
     padding: 1rem;
     font-size: 1rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
     background-color: #fff;
@@ -28,7 +28,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .search-button{
-    background-color: #a87311;
+    background-color: #C6955DFF;
     color: #fff;
     padding: 1rem;
     border: none;
@@ -38,7 +38,7 @@
     transition: background-color 0.3s ease;
 }
 .search-button:hover {
-    background-color: #a9833b;
+    background-color: #dc9b50;
 }
 .search-container ul {
     list-style-type: none;

@@ -1,10 +1,11 @@
-
 .navbar-container {
-    direction: rtl;
     width: 100%;
     background-color: rgba(21, 21, 21, 0.8);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, box-shadow 0.3s;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar-container.scrolled {
@@ -14,8 +15,16 @@
 
 .navbar {
     display: flex;
-    justify-content: center;
-    padding: 1.4em 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1em 1em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar-logo img {
+    height:80px;
+    width: auto;
 }
 
 .navbar-list {
@@ -35,4 +44,22 @@
 
 .navbar-item a:hover {
     color: #007BFF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .navbar {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-logo img {
+        height: 40px;
+    }
+
+    .navbar-container {
+        padding: 0.5em;
+    }
 }

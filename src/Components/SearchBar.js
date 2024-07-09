@@ -18,7 +18,7 @@ function SearchBar() {
         <div className="search-container">
             <input
                 type="search"
-                placeholder="What company are you looking for?"
+                placeholder="Enter a company to search.."
                 className="search-input"
                 value={searchTerm}
                 onChange={handleSearch}
